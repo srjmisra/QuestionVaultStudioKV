@@ -1,0 +1,4036 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_00c5e2a7796d7b89daff12cc7fa6fcde8d4339c697fb710b4b9325fff13128fd",
+    "version": 1,
+    "checksum": "00c5e2a7796d7b89daff12cc7fa6fcde8d4339c697fb710b4b9325fff13128fd",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q37_e_A",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_network_types",
+      "subtopic": "con_geographical_span",
+      "difficulty": "medium",
+      "bloom_level": "evaluate",
+      "keywords": [
+        "network types",
+        "LAN",
+        "MAN",
+        "WAN",
+        "geographical distance",
+        "connect admission office"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_networking_fundamentals",
+        "top_network_types",
+        "con_geographical_span"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "e) The institute is planning to connect its admission office in Bangalore, which is 1960km from institute. Which type of network out of LAN, MAN or WAN will be formed? Justify your answer."
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": "cko_9cad6ebb4c7c91c7e86b1deb287278c35efa9231bb85af6ae6b4bbc3abea3b53",
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": [
+        "cko_f1b8b333d433398dd69bc408beec403027873b5e0d4bb103032d384400c8125f"
+      ]
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "37",
+          "allocated_marks": 5
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_0934fd8add31b484735b8cc6ab013277cd321908df64e25dec248a61c9ef6f78",
+    "version": 1,
+    "checksum": "0934fd8add31b484735b8cc6ab013277cd321908df64e25dec248a61c9ef6f78",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q32_B",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_dql",
+      "subtopic": "con_basic_selection",
+      "difficulty": "medium",
+      "bloom_level": "apply",
+      "keywords": [
+        "predict SQL output",
+        "output prediction",
+        "SELECT queries",
+        "LIKE clause",
+        "IN operator",
+        "AVG function",
+        "COUNT function"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_sql",
+        "top_dql",
+        "con_basic_selection"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Consider the table SALES as given below:"
+        },
+        {
+          "block_type": "table",
+          "headers": [
+            "sales_id",
+            "customer_name",
+            "product",
+            "quantity_sold",
+            "price"
+          ],
+          "rows": [
+            [
+              "S001",
+              "John Doe",
+              "Laptop",
+              "5",
+              "50000"
+            ],
+            [
+              "S002",
+              "Jane Smith",
+              "Smartphone",
+              "10",
+              "30000"
+            ],
+            [
+              "S003",
+              "Michael Lee",
+              "Tablet",
+              "3",
+              "15000"
+            ],
+            [
+              "S004",
+              "Sarah Brown",
+              "Headphones",
+              "7",
+              "2000"
+            ],
+            [
+              "S005",
+              "Emily Davis",
+              "Smartwatch",
+              "8",
+              "8000"
+            ],
+            [
+              "S006",
+              "David",
+              "Smartwatch",
+              "3",
+              "16000"
+            ],
+            [
+              "S007",
+              "Mark",
+              "Tablet",
+              "5",
+              "34000"
+            ]
+          ]
+        },
+        {
+          "block_type": "text",
+          "value": "(B) Predict the output of the following:\nI. SELECT * FROM Sales where product='Tablet';\nII. SELECT sales_id, customer_name FROM Sales WHERE product LIKE 'S%';\nIII. SELECT COUNT(*) FROM Sales WHERE product in ('Laptop', 'Tablet');\nIV. SELECT AVG(price) FROM Sales where product='Tablet';"
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": [
+        "cko_777bd5312b3fe3e5b3ac55d3a0af9e3218cb4b90910d831cc90ef682a1d2ef44"
+      ]
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "32",
+          "allocated_marks": 4
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_1601b1cda92d89e951b979f52ad872f95d18aa64a1e1b05e274e75d4f41f10b9",
+    "version": 1,
+    "checksum": "1601b1cda92d89e951b979f52ad872f95d18aa64a1e1b05e274e75d4f41f10b9",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q33",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_csv_files",
+      "subtopic": "con_csv_operations",
+      "difficulty": "hard",
+      "bloom_level": "create",
+      "keywords": [
+        "CSV operations",
+        "import csv",
+        "csv.writer",
+        "writerow",
+        "csv.reader",
+        "python file handling",
+        "user defined functions"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_data_file_handling",
+        "top_csv_files",
+        "con_csv_operations"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Charvi is a Python programmer working in a computer hardware company. She has to maintain the records of the peripheral devices. She created a csv file named Peripheral.csv, to store the details.\nThe structure of Peripheral.csv is: [P_id, P_name, Price]\nWhere P_id is Peripheral device ID (integer) P_name is Peripheral device name (String) and Price is Peripheral device price (integer). Charvi wants to write the following user defined functions:\nAdd_Device(): to accept a record from the user and add it to a csv file, Peripheral.csv\nCount_Device(): To count and display number of peripheral devices whose price is less than 1000."
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "33",
+          "allocated_marks": 4
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_1b0def3f8cc51fe4a0c15939a885d8c07323f02255f0c98a8cfca5c8b10a9908",
+    "version": 1,
+    "checksum": "1b0def3f8cc51fe4a0c15939a885d8c07323f02255f0c98a8cfca5c8b10a9908",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q22_A",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_python_fundamentals",
+      "subtopic": "con_data_types_mutability",
+      "difficulty": "medium",
+      "bloom_level": "understand",
+      "keywords": [
+        "Type Conversion",
+        "Type Casting",
+        "Implicit",
+        "Explicit",
+        "differentiate type conversion"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_revision_tour",
+        "top_python_fundamentals",
+        "con_data_types_mutability"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "A. Differentiate between Type Conversion and Type Casting with example."
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": [
+        "cko_681c8b22b78f2bbdc2152190f43330871e88d3f6ab5dd6cb69926bbb588f871b"
+      ]
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "22",
+          "allocated_marks": 2
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_2232f980e42aabbd28f500164b69ed5005f2141407fa837c68caa7031a9912d7",
+    "version": 1,
+    "checksum": "2232f980e42aabbd28f500164b69ed5005f2141407fa837c68caa7031a9912d7",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q12",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_data_structures_basic",
+      "subtopic": "con_tuple_operations",
+      "difficulty": "easy",
+      "bloom_level": "understand",
+      "keywords": [
+        "identify error",
+        "tuple mutability",
+        "immutable sequence",
+        "assignment error",
+        "item assignment"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_revision_tour",
+        "top_data_structures_basic",
+        "con_tuple_operations"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Which of the following statement(s) would give an error during execution of the following code?"
+        },
+        {
+          "block_type": "code",
+          "language": "python",
+          "value": "Tup = (10,20,30,40,50,60)\nprint(Tup)           #Statement 1\nprint(Tup[3]+50)     #Statement 2\nprint(max(Tup))      #Statement 3\nTup[4]=80            #Statement 4"
+        }
+      ]
+    },
+    "options": [
+      {
+        "option_id": "opt_a",
+        "display_order": 1,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "a) Statement 1"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_b",
+        "display_order": 2,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "b) Statement 2"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_c",
+        "display_order": 3,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "c) Statement 3"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_d",
+        "display_order": 4,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "d) Statement 4"
+          }
+        ]
+      }
+    ],
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "12",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_25c2b0ef790b72d7465e65ea854629d0c6dfed40fda3e819322f3ef28fa1ac42",
+    "version": 1,
+    "checksum": "25c2b0ef790b72d7465e65ea854629d0c6dfed40fda3e819322f3ef28fa1ac42",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q20",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_keys",
+      "subtopic": "con_constraints",
+      "difficulty": "medium",
+      "bloom_level": "understand",
+      "keywords": [
+        "Assertion Reason",
+        "Primary key",
+        "unique constraint",
+        "not null",
+        "uniquely identifies",
+        "table rows"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_database_concepts",
+        "top_keys",
+        "con_constraints"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Assertion (A): A primary key must be unique and cannot have NULL values.\nReasoning (R): The primary key uniquely identifies each row in the table."
+        }
+      ]
+    },
+    "options": [
+      {
+        "option_id": "opt_a",
+        "display_order": 1,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "a) Both A and R are true and R is the correct explanation for A"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_b",
+        "display_order": 2,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "b) Both A and R are true and R is not the correct explanation for A"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_c",
+        "display_order": 3,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "c) A is True but R is False"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_d",
+        "display_order": 4,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "d) A is False but R is True"
+          }
+        ]
+      }
+    ],
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "20",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_34f618f8b1e8fdee66e4c1122a19cf949d945b3d865fbd37fcb323515a0a3485",
+    "version": 1,
+    "checksum": "34f618f8b1e8fdee66e4c1122a19cf949d945b3d865fbd37fcb323515a0a3485",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q26_A",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_data_structures_basic",
+      "subtopic": "con_list_operations",
+      "difficulty": "medium",
+      "bloom_level": "apply",
+      "keywords": [
+        "list manipulation",
+        "insert element",
+        "append method",
+        "sort method",
+        "reverse alphabetical order"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_revision_tour",
+        "top_data_structures_basic",
+        "con_list_operations"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "(A) Consider the following list L1 and write Python statement for the following questions:\nL1=['english', 'physics', 'chemistry','cs', 'biology']\n(i) To insert subject \"maths\" as last element\n(ii) To display the list in reverse alphabetical order."
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": [
+        "cko_e4e9456dbde1d0976cf440bc6b0311018802d69533eef268f76f4071f724296f"
+      ]
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "26",
+          "allocated_marks": 2
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_3672c36b9a613d2efa9f39811fb4958c2a9c6cc7d6cc7d84bb3f94f36e0489d1",
+    "version": 1,
+    "checksum": "3672c36b9a613d2efa9f39811fb4958c2a9c6cc7d6cc7d84bb3f94f36e0489d1",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q11",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_control_structures",
+      "subtopic": "con_iteration_jump",
+      "difficulty": "hard",
+      "bloom_level": "analyze",
+      "keywords": [
+        "output prediction",
+        "random module",
+        "randint",
+        "loop execution",
+        "string index"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_revision_tour",
+        "top_control_structures",
+        "con_iteration_jump"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "What possible output is expected to be displayed on the screen at the time of execution of the Python program from the following code?"
+        },
+        {
+          "block_type": "code",
+          "language": "python",
+          "value": "import random\nword='Inspiration'\nLot=2*random.randint(2,4)\nfor I in range(Lot, len (word),3):\n    print(word[I], end='$')"
+        }
+      ]
+    },
+    "options": [
+      {
+        "option_id": "opt_a",
+        "display_order": 1,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "a) i$a$i$n$"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_b",
+        "display_order": 2,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "b) i$n$"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_c",
+        "display_order": 3,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "c) i$t$n$"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_d",
+        "display_order": 4,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "d) a$i$n$"
+          }
+        ]
+      }
+    ],
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "11",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_3ee08dddd21ea8eaf731205781b539931d7561979dab114af5d62201ee9f505b",
+    "version": 1,
+    "checksum": "3ee08dddd21ea8eaf731205781b539931d7561979dab114af5d62201ee9f505b",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q30",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_stack",
+      "subtopic": "con_stack_operations",
+      "difficulty": "hard",
+      "bloom_level": "create",
+      "keywords": [
+        "stack operations",
+        "push method",
+        "pop method",
+        "python stack",
+        "list implementation",
+        "check integer digits",
+        "stack empty",
+        "underflow"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_data_structures",
+        "top_stack",
+        "con_stack_operations"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Consider a list named Nums which contains random integers. Write the following user defined functions in Python and perform the specified Operations on a stack named BigNums.\n(i) PushBig(): It checks every number from the list Nums and pushes all such Numbers which have 5 or more digits into the stack, BigNums.\n(ii) PopBig(): It pops the numbers from the stack, BigNums and displays them. The function should also display \"Stack Empty\" when there are no more numbers left in the stack."
+        },
+        {
+          "block_type": "code",
+          "language": "python",
+          "value": "For example: If the list Nums contains the following data:\nNums=[213,10025,167,254923,14,1297653,31498,386,92765]\nThen on execution of PushBig(), the stack BigNums should store:\n[10025,254923,1297653,31498,92765]\nAnd on execution of PopBig(), the following output should be displayed:\n92765\n31498\n1297653\n254923\n10025\nStack Empty"
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "30",
+          "allocated_marks": 3
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_45126bad5060e60cc73239a6ba96a02e16938d379eb74d55f8cfc905b24ef124",
+    "version": 1,
+    "checksum": "45126bad5060e60cc73239a6ba96a02e16938d379eb74d55f8cfc905b24ef124",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q23_ii",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_python_fundamentals",
+      "subtopic": "con_tokens_operators",
+      "difficulty": "easy",
+      "bloom_level": "remember",
+      "keywords": [
+        "Membership operator",
+        "in",
+        "not in",
+        "operator examples"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_revision_tour",
+        "top_python_fundamentals",
+        "con_tokens_operators"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "(ii) Membership operator"
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "23",
+          "allocated_marks": 2
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_45ab6ca20a570b1e9b652eb280eac4bf2cd46da45319227ab6a3fba9b4341931",
+    "version": 1,
+    "checksum": "45ab6ca20a570b1e9b652eb280eac4bf2cd46da45319227ab6a3fba9b4341931",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q2",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_python_fundamentals",
+      "subtopic": "con_data_types_mutability",
+      "difficulty": "easy",
+      "bloom_level": "remember",
+      "keywords": [
+        "invalid datatype",
+        "python data types",
+        "Set",
+        "None",
+        "Integer",
+        "Real"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_revision_tour",
+        "top_python_fundamentals",
+        "con_data_types_mutability"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Which of the following is an invalid datatype in Python?"
+        }
+      ]
+    },
+    "options": [
+      {
+        "option_id": "opt_a",
+        "display_order": 1,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "a) Set"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_b",
+        "display_order": 2,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "b) None"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_c",
+        "display_order": 3,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "c) Integer"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_d",
+        "display_order": 4,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "d) Real"
+          }
+        ]
+      }
+    ],
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "2",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_4d3faf4bf67fb89a565e73e44571f8b0a637f3b92538703162b3508a032f4fcd",
+    "version": 1,
+    "checksum": "4d3faf4bf67fb89a565e73e44571f8b0a637f3b92538703162b3508a032f4fcd",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q21",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_python_fundamentals",
+      "subtopic": "con_data_types_mutability",
+      "difficulty": "medium",
+      "bloom_level": "understand",
+      "keywords": [
+        "Assertion Reason",
+        "List mutability",
+        "immutable data type",
+        "memory variable destroyed",
+        "update value"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_revision_tour",
+        "top_python_fundamentals",
+        "con_data_types_mutability"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Assertion (A): List is an immutable data type\nReasoning(R): When an attempt is made to update the value of an immutable variable, the old variable is destroyed and a new variable is created by the same name in memory."
+        }
+      ]
+    },
+    "options": [
+      {
+        "option_id": "opt_a",
+        "display_order": 1,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "a) Both A and R are true and R is the correct explanation for A"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_b",
+        "display_order": 2,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "b) Both A and R are true and R is not the correct explanation for A"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_c",
+        "display_order": 3,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "c) A is True but R is False"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_d",
+        "display_order": 4,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "d) A is False but R is True"
+          }
+        ]
+      }
+    ],
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "21",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_4e57457b20524c73539e67f641a4e38d5af6f26bf3f9bb0f44a486672cd78a71",
+    "version": 1,
+    "checksum": "4e57457b20524c73539e67f641a4e38d5af6f26bf3f9bb0f44a486672cd78a71",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q4",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_dml",
+      "subtopic": "con_data_modification",
+      "difficulty": "easy",
+      "bloom_level": "remember",
+      "keywords": [
+        "DML command",
+        "Data Manipulation Language",
+        "Update",
+        "Alter",
+        "Drop",
+        "Create",
+        "SQL commands"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_sql",
+        "top_dml",
+        "con_data_modification"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Which among the following is a DML command?"
+        }
+      ]
+    },
+    "options": [
+      {
+        "option_id": "opt_a",
+        "display_order": 1,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "a) Create"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_b",
+        "display_order": 2,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "b) Update"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_c",
+        "display_order": 3,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "c) Alter"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_d",
+        "display_order": 4,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "d) Drop"
+          }
+        ]
+      }
+    ],
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "4",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_506a46cd486528fadfb6a4f5a0a80d3690ba02ade0a897d4c2e76e6d8494987d",
+    "version": 1,
+    "checksum": "506a46cd486528fadfb6a4f5a0a80d3690ba02ade0a897d4c2e76e6d8494987d",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q34_IV_B",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_joins",
+      "subtopic": "con_multi_table_queries",
+      "difficulty": "medium",
+      "bloom_level": "apply",
+      "keywords": [
+        "Equi-join",
+        "customer name",
+        "hotel name",
+        "multiple tables joining",
+        "primary key foreign key match"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_sql",
+        "top_joins",
+        "con_multi_table_queries"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "B. To display the customer's name along with their booked hotel's name."
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": [
+        "cko_60eb25b22ea4587f2e495b749ceb4bc979f213f146de5fb5fc0f2747cee7549b"
+      ]
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "34",
+          "allocated_marks": 4
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_59196c00a681c0acb63db5a5b3f96f742bbd82c6ebed0a120e1974767ee80663",
+    "version": 1,
+    "checksum": "59196c00a681c0acb63db5a5b3f96f742bbd82c6ebed0a120e1974767ee80663",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q18",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_network_types",
+      "subtopic": "con_geographical_span",
+      "difficulty": "easy",
+      "bloom_level": "remember",
+      "keywords": [
+        "switching technique",
+        "dedicated path",
+        "circuit switching",
+        "communication starts",
+        "sender and receiver"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_networking_fundamentals",
+        "top_network_types",
+        "con_geographical_span"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Fill in the blank:\nIn case of ______ switching, before a communication starts, a dedicated path is identified between the sender and the receiver."
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "18",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_5ff8f1e26feea6c1386e228b9bff05bdfad67e5c3cd85e820c4df1b08df41c86",
+    "version": 1,
+    "checksum": "5ff8f1e26feea6c1386e228b9bff05bdfad67e5c3cd85e820c4df1b08df41c86",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q1",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_control_structures",
+      "subtopic": "con_iteration_jump",
+      "difficulty": "easy",
+      "bloom_level": "remember",
+      "keywords": [
+        "break statement",
+        "nested loop",
+        "terminate execution",
+        "python loops",
+        "jump statements"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_revision_tour",
+        "top_control_structures",
+        "con_iteration_jump"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "State True or False:\n\"In a Python program, if a break statement is given in a nested loop, it terminates the execution of all loops in one go.\""
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "1",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_6024ea7a2fbd237c16377d47dc1063ee426e2ce2d4a7347e7e775c4bb9e1e256",
+    "version": 1,
+    "checksum": "6024ea7a2fbd237c16377d47dc1063ee426e2ce2d4a7347e7e775c4bb9e1e256",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q9",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_error_management",
+      "subtopic": "con_try_except_blocks",
+      "difficulty": "medium",
+      "bloom_level": "apply",
+      "keywords": [
+        "output prediction",
+        "try-except",
+        "Exception",
+        "ZeroDivisionError",
+        "error handling",
+        "division by zero"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_exception_handling",
+        "top_error_management",
+        "con_try_except_blocks"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "What will be the output of the following Python code?"
+        },
+        {
+          "block_type": "code",
+          "language": "python",
+          "value": "try:\n    x=18//0\nexcept Exception:\n    print(\"Exception occurred!\")\nexcept ZeroDivisionError:\n    print(\"Division by zero error!\")"
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "9",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_60eb25b22ea4587f2e495b749ceb4bc979f213f146de5fb5fc0f2747cee7549b",
+    "version": 1,
+    "checksum": "60eb25b22ea4587f2e495b749ceb4bc979f213f146de5fb5fc0f2747cee7549b",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q34_IV_A",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_joins",
+      "subtopic": "con_multi_table_queries",
+      "difficulty": "easy",
+      "bloom_level": "apply",
+      "keywords": [
+        "Cartesian Product",
+        "Cross join",
+        "multiple tables",
+        "SQL relational algebra"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_sql",
+        "top_joins",
+        "con_multi_table_queries"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "IV.\nA. To display the Cartesian Product of the two tables."
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": [
+        "cko_506a46cd486528fadfb6a4f5a0a80d3690ba02ade0a897d4c2e76e6d8494987d"
+      ]
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "34",
+          "allocated_marks": 4
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_6282fe30aa6ecb9e7fa738ce2c73ceb6deb5336a78b8d27f74a64b679f2da31f",
+    "version": 1,
+    "checksum": "6282fe30aa6ecb9e7fa738ce2c73ceb6deb5336a78b8d27f74a64b679f2da31f",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q27_A",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_ddl",
+      "subtopic": "con_schema_modification",
+      "difficulty": "easy",
+      "bloom_level": "remember",
+      "keywords": [
+        "SQL commands",
+        "show tables",
+        "describe table",
+        "view list of tables",
+        "view table structure",
+        "DESC",
+        "SHOW"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_sql",
+        "top_ddl",
+        "con_schema_modification"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "(A) Write the SQL commands to perform the following tasks:\n(i) View the list of tables in the database, SCHOOL.\n(ii) View the structure of the table, STUDENT."
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": [
+        "cko_956a9b77b37a9a7ec876d602aacb57eb07792e40e7cd2967b215ef950b43183e"
+      ]
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "27",
+          "allocated_marks": 2
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_681c8b22b78f2bbdc2152190f43330871e88d3f6ab5dd6cb69926bbb588f871b",
+    "version": 1,
+    "checksum": "681c8b22b78f2bbdc2152190f43330871e88d3f6ab5dd6cb69926bbb588f871b",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q22_B",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_python_fundamentals",
+      "subtopic": "con_data_types_mutability",
+      "difficulty": "medium",
+      "bloom_level": "understand",
+      "keywords": [
+        "Mutable",
+        "Immutable",
+        "data types",
+        "differentiate mutability",
+        "memory assignment"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_revision_tour",
+        "top_python_fundamentals",
+        "con_data_types_mutability"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "B. Differentiate between Mutable and Immutable data types with example."
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": [
+        "cko_1b0def3f8cc51fe4a0c15939a885d8c07323f02255f0c98a8cfca5c8b10a9908"
+      ]
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "22",
+          "allocated_marks": 2
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_6ec636767bbd23318e875896767c65cdb190fe6bcf91afa381f12c98e9286e0d",
+    "version": 1,
+    "checksum": "6ec636767bbd23318e875896767c65cdb190fe6bcf91afa381f12c98e9286e0d",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q19",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_protocols_services",
+      "subtopic": "con_web_services",
+      "difficulty": "easy",
+      "bloom_level": "remember",
+      "keywords": [
+        "not a web browser",
+        "Mozilla Firefox",
+        "Google Chrome",
+        "Windows Firewall",
+        "Microsoft Edge",
+        "browser identification"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_network_devices",
+        "top_protocols_services",
+        "con_web_services"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Which among the following is not a Web Browser?"
+        }
+      ]
+    },
+    "options": [
+      {
+        "option_id": "opt_a",
+        "display_order": 1,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "a) Mozilla Firefox"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_b",
+        "display_order": 2,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "b) Google Chrome"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_c",
+        "display_order": 3,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "c) Windows Firewall"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_d",
+        "display_order": 4,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "d) Microsoft Edge"
+          }
+        ]
+      }
+    ],
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "19",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_70ea5698e57d6c7635bf257da4d3ea7a9b573d6158349c2c9a76f51d8417fd19",
+    "version": 1,
+    "checksum": "70ea5698e57d6c7635bf257da4d3ea7a9b573d6158349c2c9a76f51d8417fd19",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q15",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_relational_model",
+      "subtopic": "con_table_anatomy",
+      "difficulty": "medium",
+      "bloom_level": "apply",
+      "keywords": [
+        "degree",
+        "cardinality",
+        "columns deleted",
+        "rows deleted",
+        "updated degree",
+        "relation attributes"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_database_concepts",
+        "top_relational_model",
+        "con_table_anatomy"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "In SQL, a relation consists of 6 columns and 5 rows. If 2 columns and 3 rows are deleted from the existing relation, what will be the updated degree of a relation?"
+        }
+      ]
+    },
+    "options": [
+      {
+        "option_id": "opt_a",
+        "display_order": 1,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "a) Degree: 4"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_b",
+        "display_order": 2,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "b) Degree: 8"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_c",
+        "display_order": 3,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "c) Degree: 3"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_d",
+        "display_order": 4,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "d) Degree: 2"
+          }
+        ]
+      }
+    ],
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "15",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_7404c28679b531f71edda26d10a120e4c4711a8573b66df340c64197c3d8615f",
+    "version": 1,
+    "checksum": "7404c28679b531f71edda26d10a120e4c4711a8573b66df340c64197c3d8615f",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q29_B",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_text_files",
+      "subtopic": "con_text_file_reading",
+      "difficulty": "medium",
+      "bloom_level": "apply",
+      "keywords": [
+        "text file",
+        "read file",
+        "count words",
+        "word appears",
+        "python file handling",
+        "split string"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_data_file_handling",
+        "top_text_files",
+        "con_text_file_reading"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "(B) Write a Python function that displays the number of times the word \"Python\" appears in a text file named \"Prog.txt\"."
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": [
+        "cko_b7a327b04759c83414cd38205aaeff224ae6ca7b74f17ba9e9767d7845ca7208"
+      ]
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "29",
+          "allocated_marks": 3
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_777bd5312b3fe3e5b3ac55d3a0af9e3218cb4b90910d831cc90ef682a1d2ef44",
+    "version": 1,
+    "checksum": "777bd5312b3fe3e5b3ac55d3a0af9e3218cb4b90910d831cc90ef682a1d2ef44",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q32_A",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_dql",
+      "subtopic": "con_sorting_grouping",
+      "difficulty": "medium",
+      "bloom_level": "apply",
+      "keywords": [
+        "SQL queries",
+        "GROUP BY",
+        "HAVING",
+        "ORDER BY",
+        "DESC",
+        "DISTINCT",
+        "LIKE pattern matching",
+        "aggregate SUM"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_sql",
+        "top_dql",
+        "con_sorting_grouping"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Consider the table SALES as given below:"
+        },
+        {
+          "block_type": "table",
+          "headers": [
+            "sales_id",
+            "customer_name",
+            "product",
+            "quantity_sold",
+            "price"
+          ],
+          "rows": [
+            [
+              "S001",
+              "John Doe",
+              "Laptop",
+              "5",
+              "50000"
+            ],
+            [
+              "S002",
+              "Jane Smith",
+              "Smartphone",
+              "10",
+              "30000"
+            ],
+            [
+              "S003",
+              "Michael Lee",
+              "Tablet",
+              "3",
+              "15000"
+            ],
+            [
+              "S004",
+              "Sarah Brown",
+              "Headphones",
+              "7",
+              "2000"
+            ],
+            [
+              "S005",
+              "Emily Davis",
+              "Smartwatch",
+              "8",
+              "8000"
+            ],
+            [
+              "S006",
+              "David",
+              "Smartwatch",
+              "3",
+              "16000"
+            ],
+            [
+              "S007",
+              "Mark",
+              "Tablet",
+              "5",
+              "34000"
+            ]
+          ]
+        },
+        {
+          "block_type": "text",
+          "value": "(A) Write the following queries:\nI. To display the total quantity sold for each product whose total quantity sold exceeds 12.\nII. To display the records of SALES table sorted by Product name in descending order.\nIII. To display the distinct Product names from the SALES table.\nIV. To display the records of customers whose names end with the letter 'e'."
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": [
+        "cko_0934fd8add31b484735b8cc6ab013277cd321908df64e25dec248a61c9ef6f78"
+      ]
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "32",
+          "allocated_marks": 4
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_876695b758c4c2bd0b0181a5ae0f7500a8f30c3a2be7e7dd006f29b942176c47",
+    "version": 1,
+    "checksum": "876695b758c4c2bd0b0181a5ae0f7500a8f30c3a2be7e7dd006f29b942176c47",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q24",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_control_structures",
+      "subtopic": "con_iteration_jump",
+      "difficulty": "medium",
+      "bloom_level": "analyze",
+      "keywords": [
+        "debugging",
+        "syntax errors",
+        "remove errors",
+        "rewrite code",
+        "for loop syntax",
+        "def",
+        "assignment error"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_revision_tour",
+        "top_control_structures",
+        "con_iteration_jump"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Rewrite the following code in Python after removing. all the syntax errors. Underline each correction done in the code."
+        },
+        {
+          "block_type": "code",
+          "language": "python",
+          "value": "define fun1():\n    30=num\n    for k range(0,num):\n        if k%4=0\n            :\n            print(k*4)\n        else:\n            print(k+3)"
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "24",
+          "allocated_marks": 2
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_956a9b77b37a9a7ec876d602aacb57eb07792e40e7cd2967b215ef950b43183e",
+    "version": 1,
+    "checksum": "956a9b77b37a9a7ec876d602aacb57eb07792e40e7cd2967b215ef950b43183e",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q27_B",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_ddl",
+      "subtopic": "con_schema_modification",
+      "difficulty": "medium",
+      "bloom_level": "understand",
+      "keywords": [
+        "Drop command",
+        "Delete command",
+        "differentiate drop and delete",
+        "DDL vs DML",
+        "SQL"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_sql",
+        "top_ddl",
+        "con_schema_modification"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "(B) Differentiate between Drop and Delete commands in SQL with suitable examples."
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": [
+        "cko_6282fe30aa6ecb9e7fa738ce2c73ceb6deb5336a78b8d27f74a64b679f2da31f"
+      ]
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "27",
+          "allocated_marks": 2
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_994544cce27e896f9d226ba04f72c5a747d54e5f60800a21395653c726310dc3",
+    "version": 1,
+    "checksum": "994544cce27e896f9d226ba04f72c5a747d54e5f60800a21395653c726310dc3",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q5",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_data_structures_basic",
+      "subtopic": "con_string_operations",
+      "difficulty": "medium",
+      "bloom_level": "apply",
+      "keywords": [
+        "output prediction",
+        "string slicing",
+        "negative indexing",
+        "step value",
+        "sequence traversal"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_revision_tour",
+        "top_data_structures_basic",
+        "con_string_operations"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "What will be output of the following code snippet?"
+        },
+        {
+          "block_type": "code",
+          "language": "python",
+          "value": "Msg='Wings of Fire!'\nprint (Msg[-9::2])"
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "5",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_997a2c30ada85d9b9f9fc869d0d32ea34f4d00575dd656f067243abb883368a0",
+    "version": 1,
+    "checksum": "997a2c30ada85d9b9f9fc869d0d32ea34f4d00575dd656f067243abb883368a0",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q28_B",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_protocols_services",
+      "subtopic": "con_communication_protocols",
+      "difficulty": "medium",
+      "bloom_level": "understand",
+      "keywords": [
+        "SMTP",
+        "POP3",
+        "expand terms",
+        "differentiate web server and web browser",
+        "networking acronyms",
+        "HTTP services"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_network_devices",
+        "top_protocols_services",
+        "con_communication_protocols"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "(B)\nI. Expand the following terms: SMTP and POP3\nII. Differentiate between web server and web browser."
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": [
+        "cko_b4d64777583cefb44e83efdeb3974d27dc1a646b46e39ff0888c39c2ab1b7f49"
+      ]
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "28",
+          "allocated_marks": 2
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_9cad6ebb4c7c91c7e86b1deb287278c35efa9231bb85af6ae6b4bbc3abea3b53",
+    "version": 1,
+    "checksum": "9cad6ebb4c7c91c7e86b1deb287278c35efa9231bb85af6ae6b4bbc3abea3b53",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q37",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_layout_implementation",
+      "subtopic": "con_server_placement",
+      "difficulty": "hard",
+      "bloom_level": "evaluate",
+      "keywords": [
+        "networking case study",
+        "server placement",
+        "cable layout drawing",
+        "device suggestion",
+        "topology",
+        "80-20 rule",
+        "hub",
+        "switch",
+        "router"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_network_design",
+        "top_layout_implementation",
+        "con_server_placement"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Karnavati Design and Training Institute is setting up its center in Jaipur with four specialized units for Design, Media, HR and Training in separate buildings. The physical distances between these units and the number of computers to be installed in these units are given as follows.\nYou as a network expert, have to answer the queries as raised by the administrator as given in (i) to (v).\n\na) Suggest the most suitable place (i.e., Unit/Building) to install the server of this Institute with justification.\nb) Suggest an ideal layout for connecting these Unit/Building for a wired connectivity.\nc) Suggest the devices to be installed in each of these buildings for connecting computers installed within each of the units out of the following:\nModem, Switch, Gateway, Router\nd) Suggest an efficient as well as economic wired medium to be used within each unit for connecting computer systems out of the following network cable:\nCo-axial Cable, Ethernet Cable, Sing Pair Telephone Cable."
+        },
+        {
+          "block_type": "table",
+          "headers": [
+            "Shortest distances between various locations in meters:"
+          ],
+          "rows": [
+            [
+              "Design Unit to Media Unit",
+              "60"
+            ],
+            [
+              "Design Unit to HR Unit",
+              "40"
+            ],
+            [
+              "Design Unit to Training Unit",
+              "60"
+            ],
+            [
+              "Media Unit to Training Unit",
+              "100"
+            ],
+            [
+              "Media Unit to HR Unit",
+              "50"
+            ],
+            [
+              "Training Unit to HR Unit",
+              "60"
+            ]
+          ]
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [
+        "cko_00c5e2a7796d7b89daff12cc7fa6fcde8d4339c697fb710b4b9325fff13128fd",
+        "cko_f1b8b333d433398dd69bc408beec403027873b5e0d4bb103032d384400c8125f"
+      ],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "37",
+          "allocated_marks": 5
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_a14ff37e99d646c819f0d8171a5fa5465e95757058b42e455587a2daa7fdf543",
+    "version": 1,
+    "checksum": "a14ff37e99d646c819f0d8171a5fa5465e95757058b42e455587a2daa7fdf543",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q17",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_protocols_services",
+      "subtopic": "con_communication_protocols",
+      "difficulty": "easy",
+      "bloom_level": "remember",
+      "keywords": [
+        "voice and multimedia",
+        "internet protocol",
+        "VoIP",
+        "communication methodology",
+        "IP protocols"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_network_devices",
+        "top_protocols_services",
+        "con_communication_protocols"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Fill in the blank:\n______ is a communication methodology designed to deliver both voice and multimedia communications over Internet protocol."
+        }
+      ]
+    },
+    "options": [
+      {
+        "option_id": "opt_a",
+        "display_order": 1,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "a) VoIP"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_b",
+        "display_order": 2,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "b) SMTP"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_c",
+        "display_order": 3,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "c) PPP"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_d",
+        "display_order": 4,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "d) HTTP"
+          }
+        ]
+      }
+    ],
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "17",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_a381b2381b01482026de1ff9f3288bab7e42e50a30a7c38bc4c5e7a445986166",
+    "version": 1,
+    "checksum": "a381b2381b01482026de1ff9f3288bab7e42e50a30a7c38bc4c5e7a445986166",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q3",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_python_fundamentals",
+      "subtopic": "con_tokens_operators",
+      "difficulty": "medium",
+      "bloom_level": "apply",
+      "keywords": [
+        "evaluate expression",
+        "arithmetic operators",
+        "precedence",
+        "modulo",
+        "exponentiation",
+        "division"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_revision_tour",
+        "top_python_fundamentals",
+        "con_tokens_operators"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "The following expression will evaluate to"
+        },
+        {
+          "block_type": "code",
+          "language": "python",
+          "value": "print(2+(3%5)**1**2/5+2)"
+        }
+      ]
+    },
+    "options": [
+      {
+        "option_id": "opt_a",
+        "display_order": 1,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "a) 5"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_b",
+        "display_order": 2,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "b) 4.6"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_c",
+        "display_order": 3,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "c) 5.8"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_d",
+        "display_order": 4,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "d) 4"
+          }
+        ]
+      }
+    ],
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "3",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_a6a204b386b643cd2b045f7d8948e78d8f1017a7a345a70569a403cc955e7f4a",
+    "version": 1,
+    "checksum": "a6a204b386b643cd2b045f7d8948e78d8f1017a7a345a70569a403cc955e7f4a",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q36",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_binary_files",
+      "subtopic": "con_binary_serialization",
+      "difficulty": "hard",
+      "bloom_level": "create",
+      "keywords": [
+        "binary file handling",
+        "pickle module",
+        "dump data",
+        "load data",
+        "search binary file",
+        "differentiate CSV and Binary",
+        "read binary records"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_data_file_handling",
+        "top_binary_files",
+        "con_binary_serialization"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "(A) Differentiate between Binary Files and CSV Files.\n(B) A file, PASSENGERS.DAT, stores the records of passengers using the following structure : [PNR, PName, BRDSTN, DESTN, FARE]\nwhere:\nPNR Passenger Number (string type)\nPname Passenger Name (string type)\nBRDSTN Boarding Station Name (string type)\nDESTN Destination Station Name (string type)\nFARE- Fare amount for the journey (float type)\nWrite user defined functions in Python for the following tasks:\n(i) Create() - to input data for passengers and write it in the binary file PASSENGERS.DAT.\n(ii) SearchDestn(D) -to read contents from the file PASSENGERS.DAT and display the details of those Passengers whose DESTN matches with the value of D."
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "36",
+          "allocated_marks": 5
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_b4d64777583cefb44e83efdeb3974d27dc1a646b46e39ff0888c39c2ab1b7f49",
+    "version": 1,
+    "checksum": "b4d64777583cefb44e83efdeb3974d27dc1a646b46e39ff0888c39c2ab1b7f49",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q28_A",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_hardware_devices",
+      "subtopic": "con_connectivity_devices",
+      "difficulty": "easy",
+      "bloom_level": "remember",
+      "keywords": [
+        "Modem definition",
+        "Router definition",
+        "networking devices",
+        "modulation demodulation",
+        "network routing"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_network_devices",
+        "top_hardware_devices",
+        "con_connectivity_devices"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "(A) Define the following terms:\nI. Modem\nII. Router"
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": [
+        "cko_997a2c30ada85d9b9f9fc869d0d32ea34f4d00575dd656f067243abb883368a0"
+      ]
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "28",
+          "allocated_marks": 2
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_b7a327b04759c83414cd38205aaeff224ae6ca7b74f17ba9e9767d7845ca7208",
+    "version": 1,
+    "checksum": "b7a327b04759c83414cd38205aaeff224ae6ca7b74f17ba9e9767d7845ca7208",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q29_A",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_text_files",
+      "subtopic": "con_text_file_reading",
+      "difficulty": "medium",
+      "bloom_level": "apply",
+      "keywords": [
+        "text file",
+        "read file",
+        "display lines",
+        "python function",
+        "search word in file",
+        "file handling"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_data_file_handling",
+        "top_text_files",
+        "con_text_file_reading"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "(A) Write a Python function that displays all the lines containing the word 'vote' from a text file \"Elections.txt\".\nFor example, if the file contains:\nIn an election many people vote to choose their representative.\nThe candidate getting the maximum share of votes stands elected.\nNormally, one person has to vote once.\nThe process of voting may vary with time and region.\nThen the output should be :\nIn an election many people vote to choose their representative.\nNormally, one person has to vote once."
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": [
+        "cko_7404c28679b531f71edda26d10a120e4c4711a8573b66df340c64197c3d8615f"
+      ]
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "29",
+          "allocated_marks": 3
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_b977485235856cc5c5068c7826f6f3c8c5bcc777097c8c58afa22d95279d4c7c",
+    "version": 1,
+    "checksum": "b977485235856cc5c5068c7826f6f3c8c5bcc777097c8c58afa22d95279d4c7c",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q34_I_to_III",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_joins",
+      "subtopic": "con_multi_table_queries",
+      "difficulty": "medium",
+      "bloom_level": "apply",
+      "keywords": [
+        "SQL queries",
+        "Relational database",
+        "Equi-join",
+        "DELETE FROM",
+        "date comparison",
+        "IN clause"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_sql",
+        "top_joins",
+        "con_multi_table_queries"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Pranil is managing a Travel Database and needs to access certain information from the Hotels and Bookings tables for an upcoming tourism survey. Help him extract the required information by writing the appropriate SQL queries as per the tasks mentioned below:"
+        },
+        {
+          "block_type": "table",
+          "headers": [
+            "HID",
+            "Hotel Name",
+            "City",
+            "Star_Rating"
+          ],
+          "rows": [
+            [
+              "1",
+              "Hotel1",
+              "Delhi",
+              "5"
+            ],
+            [
+              "2",
+              "Hotel2",
+              "Mumbai",
+              "5"
+            ],
+            [
+              "3",
+              "Hotel3",
+              "Hyderabad",
+              "4"
+            ],
+            [
+              "4",
+              "Hotel4",
+              "Bengaluru",
+              "4"
+            ],
+            [
+              "5",
+              "Hotel5",
+              "Chennai",
+              "5"
+            ],
+            [
+              "6",
+              "Hotel6",
+              "Kolkata",
+              "4"
+            ]
+          ]
+        },
+        {
+          "block_type": "text",
+          "value": "I. To display a list of customer names who have bookings in any hotel of 'Delhi' city.\nII. To display the booking details for customers who have booked hotels in 'Mumbai', 'Chennai', or 'Kolkata'.\nIII. To delete all bookings where the check-in date is before 2024-12-03."
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "34",
+          "allocated_marks": 4
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_b9c979fa5cc850aed38b979c14b1c0b2249f05dc314e467cd70db05f90f6bb8a",
+    "version": 1,
+    "checksum": "b9c979fa5cc850aed38b979c14b1c0b2249f05dc314e467cd70db05f90f6bb8a",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q25",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_user_defined_functions",
+      "subtopic": "con_function_definition",
+      "difficulty": "hard",
+      "bloom_level": "create",
+      "keywords": [
+        "user defined function",
+        "dictionary argument",
+        "average marks calculation",
+        "grade rules table",
+        "dictionary traversal",
+        "key value pairs"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_functions",
+        "top_user_defined_functions",
+        "con_function_definition"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Write a user defined function in Python named showGrades(S) which takes the dictionary S as an argument. The dictionary S contains Name: [Eng, Math, Science] as key: value pairs. The function displays the corresponding grade obtained by the students according to the following grading rules:"
+        },
+        {
+          "block_type": "table",
+          "headers": [
+            "Average of Eng, Math, Science",
+            "Grade"
+          ],
+          "rows": [
+            [
+              ">=90",
+              "A"
+            ],
+            [
+              "<90 but >=60",
+              "B"
+            ],
+            [
+              "<60",
+              "C"
+            ]
+          ]
+        },
+        {
+          "block_type": "code",
+          "language": "python",
+          "value": "For example: Consider the following dictionary:\nS={\"NIDHI\": [92,86,64], \"PRINCE\":[65,42,43],\"PRACHI\":[92,90,88]}\nThe output should be :\nNIDHI - B\nPRINCE - C\nPRACHI - A"
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "25",
+          "allocated_marks": 2
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_bd41540e26551cd952409999bc8934c9b1d4dfd178d635bdad50cc19316573a4",
+    "version": 1,
+    "checksum": "bd41540e26551cd952409999bc8934c9b1d4dfd178d635bdad50cc19316573a4",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q31_B",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_data_structures_basic",
+      "subtopic": "con_string_operations",
+      "difficulty": "hard",
+      "bloom_level": "analyze",
+      "keywords": [
+        "output prediction",
+        "string evaluation",
+        "islower",
+        "isalnum",
+        "string concatenation",
+        "python functions"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_revision_tour",
+        "top_data_structures_basic",
+        "con_string_operations"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "(B) Write the output on execution of the following Python code:"
+        },
+        {
+          "block_type": "code",
+          "language": "python",
+          "value": "text=\"LearningCS\"\nL=len(text)\nntext=\"\"\nfor i in range (0,L):\n    if text[i].islower():\n        ntext=ntext+text[i].upper()\n    elif text [i].isalnum():\n        ntext=ntext+text[i]\n    else:\n        ntext=ntext+'@@'\nprint(ntext)"
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": [
+        "cko_caffa5fb4c84087574e073bba4faedcdea818b772ff3c6c57e15a96af60f2d13"
+      ]
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "31",
+          "allocated_marks": 3
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_caffa5fb4c84087574e073bba4faedcdea818b772ff3c6c57e15a96af60f2d13",
+    "version": 1,
+    "checksum": "caffa5fb4c84087574e073bba4faedcdea818b772ff3c6c57e15a96af60f2d13",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q31_A",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_control_structures",
+      "subtopic": "con_iteration_jump",
+      "difficulty": "hard",
+      "bloom_level": "analyze",
+      "keywords": [
+        "output prediction",
+        "python execution",
+        "string slicing",
+        "palindrome check",
+        "loop over list",
+        "nested for loops",
+        "string split"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_revision_tour",
+        "top_control_structures",
+        "con_iteration_jump"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "(A) Write the output on execution of the following Python code:"
+        },
+        {
+          "block_type": "code",
+          "language": "python",
+          "value": "S=\"Racecar Car Radar\"\nL=S.split()\nfor W in L:\n    x=W.upper()\n    if x==x[::-1]:\n        for I in x:\n            print(I,end=\"*\")\n    else:\n        for I in W:\n            print(I,end=\"#\")\n    print()"
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": [
+        "cko_bd41540e26551cd952409999bc8934c9b1d4dfd178d635bdad50cc19316573a4"
+      ]
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "31",
+          "allocated_marks": 3
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_cb752b3ad7f3237c9b162395eb01ae98778b8ae5e9a0b5463ac53934e8886cf4",
+    "version": 1,
+    "checksum": "cb752b3ad7f3237c9b162395eb01ae98778b8ae5e9a0b5463ac53934e8886cf4",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q23_i",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_python_fundamentals",
+      "subtopic": "con_tokens_operators",
+      "difficulty": "easy",
+      "bloom_level": "remember",
+      "keywords": [
+        "Relational operator",
+        "examples of operators",
+        "comparison operator",
+        "greater than",
+        "less than"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_revision_tour",
+        "top_python_fundamentals",
+        "con_tokens_operators"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Give two examples of each of the following:\n(i) Relational operator"
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "23",
+          "allocated_marks": 2
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_cfc462ace5283ef1e1555840b312fe40ad3c7b0888adfe80b88a13d24145248d",
+    "version": 1,
+    "checksum": "cfc462ace5283ef1e1555840b312fe40ad3c7b0888adfe80b88a13d24145248d",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q14",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_data_structures_basic",
+      "subtopic": "con_string_operations",
+      "difficulty": "medium",
+      "bloom_level": "apply",
+      "keywords": [
+        "output prediction",
+        "split method",
+        "string functions",
+        "list return",
+        "delimiter"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_revision_tour",
+        "top_data_structures_basic",
+        "con_string_operations"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "What is the output of the expression?"
+        },
+        {
+          "block_type": "code",
+          "language": "python",
+          "value": "food='Chinese Continental'\nprint(food.split('C'))"
+        }
+      ]
+    },
+    "options": [
+      {
+        "option_id": "opt_a",
+        "display_order": 1,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "a) ('', 'hinese ', 'ontinental')"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_b",
+        "display_order": 2,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "b) ['', 'hinese ', 'ontinental']"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_c",
+        "display_order": 3,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "c) ('hinese ', 'ontinental')"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_d",
+        "display_order": 4,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "d) ['hinese ', 'ontinental']"
+          }
+        ]
+      }
+    ],
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "14",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_d4c337a86b66e1769fdd0a0109de338e628d5ddfc239f47c009e9e335f2e5527",
+    "version": 1,
+    "checksum": "d4c337a86b66e1769fdd0a0109de338e628d5ddfc239f47c009e9e335f2e5527",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q8",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_sql_functions",
+      "subtopic": "con_aggregate_functions",
+      "difficulty": "easy",
+      "bloom_level": "remember",
+      "keywords": [
+        "SUM()",
+        "AVG()",
+        "COUNT()",
+        "aggregate functions",
+        "group functions",
+        "SQL",
+        "MySQL"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_sql",
+        "top_sql_functions",
+        "con_aggregate_functions"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "SUM(), AVG() and COUNT() are examples of ______ functions."
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "8",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_de29cc7ac8333ca27b6d4d43b49c4b67d710e46de52d4b512cd33992d10ddd3a",
+    "version": 1,
+    "checksum": "de29cc7ac8333ca27b6d4d43b49c4b67d710e46de52d4b512cd33992d10ddd3a",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q13",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_dml",
+      "subtopic": "con_data_modification",
+      "difficulty": "medium",
+      "bloom_level": "understand",
+      "keywords": [
+        "cardinality change",
+        "relation rows",
+        "Delete",
+        "Insert",
+        "DML",
+        "SQL relation"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_sql",
+        "top_dml",
+        "con_data_modification"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Which SQL command can change the cardinality of an existing relation?"
+        }
+      ]
+    },
+    "options": [
+      {
+        "option_id": "opt_a",
+        "display_order": 1,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "a) Alter"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_b",
+        "display_order": 2,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "b) Delete"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_c",
+        "display_order": 3,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "c) Update"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_d",
+        "display_order": 4,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "d) Drop"
+          }
+        ]
+      }
+    ],
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "13",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_e450ffede2b0cb4653dc554ba5f6697565b937b6a87f3f528679ed108d849aee",
+    "version": 1,
+    "checksum": "e450ffede2b0cb4653dc554ba5f6697565b937b6a87f3f528679ed108d849aee",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q10",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_data_structures_basic",
+      "subtopic": "con_dictionary_operations",
+      "difficulty": "easy",
+      "bloom_level": "remember",
+      "keywords": [
+        "merge dictionaries",
+        "update method",
+        "dictionary operations",
+        "python dict"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_revision_tour",
+        "top_data_structures_basic",
+        "con_dictionary_operations"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Given the following dictionaries:\ndict_exam = {\"Exam\": \"Pre-Board\", \"Year\":2025}\ndict_result = {\"Marks\":500, \"Pass_Marks\":165}\nWhich statement will merge the contents of both dictionaries?"
+        }
+      ]
+    },
+    "options": [
+      {
+        "option_id": "opt_a",
+        "display_order": 1,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "a) dict_exam.update(dict_result)"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_b",
+        "display_order": 2,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "b) dict_exam + dict_result"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_c",
+        "display_order": 3,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "c) dict_exam.add(dict_result)"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_d",
+        "display_order": 4,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "d) dict_exam.merge(dict_result)"
+          }
+        ]
+      }
+    ],
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "10",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_e4e9456dbde1d0976cf440bc6b0311018802d69533eef268f76f4071f724296f",
+    "version": 1,
+    "checksum": "e4e9456dbde1d0976cf440bc6b0311018802d69533eef268f76f4071f724296f",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q26_B",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_data_structures_basic",
+      "subtopic": "con_list_operations",
+      "difficulty": "medium",
+      "bloom_level": "apply",
+      "keywords": [
+        "list manipulation",
+        "remove first element",
+        "pop method",
+        "del statement",
+        "index method",
+        "find index position"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_revision_tour",
+        "top_data_structures_basic",
+        "con_list_operations"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "(B)\n(i) To remove the first element of list\n(ii) To Find the index position of element 'cs'"
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": [
+        "cko_34f618f8b1e8fdee66e4c1122a19cf949d945b3d865fbd37fcb323515a0a3485"
+      ]
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "26",
+          "allocated_marks": 2
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_eb1d4dfc062d5b915c0d0b74492ce22322804e9163e21fc96c945b0901e6d23b",
+    "version": 1,
+    "checksum": "eb1d4dfc062d5b915c0d0b74492ce22322804e9163e21fc96c945b0901e6d23b",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q35",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_database_connectivity",
+      "subtopic": "con_python_mysql_integration",
+      "difficulty": "hard",
+      "bloom_level": "create",
+      "keywords": [
+        "Python-MySQL",
+        "database connection",
+        "mysql.connector",
+        "execute query",
+        "update query",
+        "commit transaction",
+        "cursor object"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_mysql",
+        "top_database_connectivity",
+        "con_python_mysql_integration"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Rehan wants to write a program in Python to update the quantity to 20 of the records whose item code is 111 in the table named shop in MySQL database named Keeper.\nThe table shop in MySQL contains the following attributes:\nItem_code: Item code (Integer)\nItem_name: Name of item (String)\nQty: Quantity of item (Integer)\nPrice: Price of item (Integer)\nConsider the following to establish connectivity between Python and MySQL:\nUsername: admin\nPassword: Shopping\nHost: localhost"
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "35",
+          "allocated_marks": 4
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_f1b8b333d433398dd69bc408beec403027873b5e0d4bb103032d384400c8125f",
+    "version": 1,
+    "checksum": "f1b8b333d433398dd69bc408beec403027873b5e0d4bb103032d384400c8125f",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q37_e_B",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_network_types",
+      "subtopic": "con_geographical_span",
+      "difficulty": "easy",
+      "bloom_level": "understand",
+      "keywords": [
+        "differentiate PAN and LAN",
+        "personal area network",
+        "local area network",
+        "networking types"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_networking_fundamentals",
+        "top_network_types",
+        "con_geographical_span"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "e) Differentiate between PAN and LAN"
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": "cko_9cad6ebb4c7c91c7e86b1deb287278c35efa9231bb85af6ae6b4bbc3abea3b53",
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": [
+        "cko_00c5e2a7796d7b89daff12cc7fa6fcde8d4339c697fb710b4b9325fff13128fd"
+      ]
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "37",
+          "allocated_marks": 5
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_fd977de2dd83f1972c56776c0f5e0a276b79cf2dcf4d06b9af704f71baff25f1",
+    "version": 1,
+    "checksum": "fd977de2dd83f1972c56776c0f5e0a276b79cf2dcf4d06b9af704f71baff25f1",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q6",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_control_structures",
+      "subtopic": "con_iteration_jump",
+      "difficulty": "easy",
+      "bloom_level": "apply",
+      "keywords": [
+        "output prediction",
+        "for loop",
+        "range function",
+        "step",
+        "iteration"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_revision_tour",
+        "top_control_structures",
+        "con_iteration_jump"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Write the output of the following Python code:"
+        },
+        {
+          "block_type": "code",
+          "language": "python",
+          "value": "for k in range(7,14,4):\n    print (k,'@')"
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "6",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_fdc5c1c547bced3293614f8cf3f4c1e76291e348e48f7237831f8615c4d3f472",
+    "version": 1,
+    "checksum": "fdc5c1c547bced3293614f8cf3f4c1e76291e348e48f7237831f8615c4d3f472",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q16",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_ddl",
+      "subtopic": "con_schema_modification",
+      "difficulty": "easy",
+      "bloom_level": "remember",
+      "keywords": [
+        "remove primary key",
+        "alter table",
+        "drop primary key",
+        "DDL command"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_sql",
+        "top_ddl",
+        "con_schema_modification"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "Fill in the blank:\n______ command is used to remove primary key from a table in SQL."
+        }
+      ]
+    },
+    "options": [
+      {
+        "option_id": "opt_a",
+        "display_order": 1,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "a) update"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_b",
+        "display_order": 2,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "b) remove"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_c",
+        "display_order": 3,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "c) alter"
+          }
+        ]
+      },
+      {
+        "option_id": "opt_d",
+        "display_order": 4,
+        "blocks": [
+          {
+            "block_type": "text",
+            "value": "d) drop"
+          }
+        ]
+      }
+    ],
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "16",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "cko_id": "cko_feff8f80670d7b3a5a89d816faae48c5cac0635ee9ddfcdf3fdf2e0c77525258",
+    "version": 1,
+    "checksum": "feff8f80670d7b3a5a89d816faae48c5cac0635ee9ddfcdf3fdf2e0c77525258",
+    "created_at": "2026-07-09T17:55:26.473456Z",
+    "updated_at": "2026-07-09T17:55:26.473456Z",
+    "status": "under_review",
+    "classification": {
+      "schema_version": "1.0.0",
+      "question_id": "Q7",
+      "subject": "COMPUTER SCIENCE",
+      "topic": "top_python_fundamentals",
+      "subtopic": "con_tokens_operators",
+      "difficulty": "medium",
+      "bloom_level": "apply",
+      "keywords": [
+        "output prediction",
+        "logical operators",
+        "and",
+        "or",
+        "not",
+        "relational operators",
+        "boolean evaluation"
+      ],
+      "estimated_time_seconds": null,
+      "taxonomy_path": [
+        "ch_python_revision_tour",
+        "top_python_fundamentals",
+        "con_tokens_operators"
+      ]
+    },
+    "content": {
+      "blocks": [
+        {
+          "block_type": "text",
+          "value": "What will be the output of the following Python statement:\nprint(20>3 and 5 or not 0)"
+        }
+      ]
+    },
+    "options": null,
+    "relationships": {
+      "parent_cko_id": null,
+      "child_cko_ids": [],
+      "sibling_or_cko_ids": []
+    },
+    "lineage": {
+      "occurrences": [
+        {
+          "paper_id": "cbse_2025_26_xii_083_set_a",
+          "examination": "PRE BOARD - I EXAMINATION",
+          "session": "2025-26",
+          "region": "AHMEDABAD REGION",
+          "original_question_number": "7",
+          "allocated_marks": 1
+        }
+      ]
+    },
+    "evolution": {
+      "usage_count": 0,
+      "empirical_difficulty": null,
+      "average_time_seconds": null,
+      "editorial_notes": []
+    }
+  }
+]
