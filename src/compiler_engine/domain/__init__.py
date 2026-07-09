@@ -11,6 +11,12 @@ from compiler_engine.domain.educational_analysis import (
     EducationalAnalysis,
 )
 from compiler_engine.domain.question_ir import QuestionIR
+from compiler_engine.domain.relationship_graph import (
+    RelationshipEdge,
+    RelationshipGraph,
+    RelationshipNode,
+    RelationshipType,
+)
 from compiler_engine.domain.taxonomy import Taxonomy, TaxonomyNode
 from compiler_engine.domain.validation_report import (
     ValidationIssue,
@@ -31,6 +37,10 @@ __all__ = [
     "EducationalAnalysis",
     "Provenance",
     "QuestionIR",
+    "RelationshipEdge",
+    "RelationshipGraph",
+    "RelationshipNode",
+    "RelationshipType",
     "Taxonomy",
     "TaxonomyNode",
     "ValidationIssue",

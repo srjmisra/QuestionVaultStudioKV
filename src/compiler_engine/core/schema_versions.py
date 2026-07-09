@@ -14,4 +14,5 @@ CURRENT_SCHEMA_VERSIONS: dict[str, str] = {
     "canonical_knowledge_object": "1.0.0",
     "validation_report": "1.0.0",
     "taxonomy": "1.0.0",
+    "relationship_graph": "1.0.0",
 }
