@@ -1,0 +1,905 @@
+{
+"metadata": {
+"taxonomy_version": "1.0",
+"subject": "COMPUTER SCIENCE",
+"subject_code": "083",
+"generated_by": "QuestionVault Extraction Engine",
+"generated_at": "2026-07-09T22:09:00Z"
+},
+"curriculum": [
+{
+"id": "u1_comp_thinking_2",
+"name": "Computational Thinking and Programming - 2",
+"sequence": 1,
+"chapters": [
+{
+"id": "ch_python_revision_tour",
+"name": "Python Revision Tour",
+"sequence": 1,
+"unit_id": "u1_comp_thinking_2",
+"topics": [
+{
+"id": "top_python_fundamentals",
+"name": "Python Fundamentals",
+"sequence": 1,
+"chapter_id": "ch_python_revision_tour",
+"concepts": [
+{
+"id": "con_tokens_operators",
+"name": "Tokens, Identifiers, Keywords, Literals, Operators",
+"sequence": 1,
+"topic_id": "top_python_fundamentals",
+"aliases": [
+"valid identifier",
+"naming rules",
+"relational operators",
+"logical operators"
+],
+"typical_verbs": [
+"Identify",
+"Evaluate",
+"Find the invalid"
+]
+},
+{
+"id": "con_data_types_mutability",
+"name": "Data Types & Mutability",
+"sequence": 2,
+"topic_id": "top_python_fundamentals",
+"aliases": [
+"Mutable",
+"Immutable",
+"Integer",
+"Float",
+"String",
+"Tuple",
+"List",
+"Dictionary"
+],
+"related_concepts": [
+"Type Casting",
+"Type Conversion",
+"Implicit",
+"Explicit"
+]
+}
+]
+},
+{
+"id": "top_control_structures",
+"name": "Control Structures",
+"sequence": 2,
+"chapter_id": "ch_python_revision_tour",
+"concepts": [
+{
+"id": "con_iteration_jump",
+"name": "Iteration (Loops) & Jump Statements",
+"sequence": 1,
+"topic_id": "top_control_structures",
+"aliases": [
+"for loop",
+"while loop",
+"break",
+"continue",
+"nested loops"
+]
+}
+]
+},
+{
+"id": "top_data_structures_basic",
+"name": "Data Structures (Basic)",
+"sequence": 3,
+"chapter_id": "ch_python_revision_tour",
+"concepts": [
+{
+"id": "con_string_operations",
+"name": "String Operations",
+"sequence": 1,
+"topic_id": "top_data_structures_basic",
+"keywords": [
+"Slicing",
+"Traversal",
+"Built-in methods"
+]
+},
+{
+"id": "con_list_operations",
+"name": "List Operations",
+"sequence": 2,
+"topic_id": "top_data_structures_basic",
+"keywords": [
+"Indexing",
+"append",
+"pop",
+"remove",
+"nested lists"
+]
+},
+{
+"id": "con_tuple_operations",
+"name": "Tuple Operations",
+"sequence": 3,
+"topic_id": "top_data_structures_basic",
+"keywords": [
+"Packing",
+"Unpacking"
+]
+},
+{
+"id": "con_dictionary_operations",
+"name": "Dictionary Operations",
+"sequence": 4,
+"topic_id": "top_data_structures_basic",
+"keywords": [
+"Key-Value pairs",
+"update",
+"keys",
+"values"
+]
+}
+]
+}
+]
+},
+{
+"id": "ch_functions",
+"name": "Functions",
+"sequence": 2,
+"unit_id": "u1_comp_thinking_2",
+"topics": [
+{
+"id": "top_user_defined_functions",
+"name": "User-Defined Functions",
+"sequence": 1,
+"chapter_id": "ch_functions",
+"concepts": [
+{
+"id": "con_function_definition",
+"name": "Function Definition & Calling",
+"sequence": 1,
+"topic_id": "top_user_defined_functions",
+"aliases": [
+"def",
+"invoke",
+"return",
+"void function"
+]
+},
+{
+"id": "con_arguments_parameters",
+"name": "Arguments and Parameters",
+"sequence": 2,
+"topic_id": "top_user_defined_functions",
+"aliases": [
+"Positional arguments",
+"Default arguments",
+"Keyword arguments"
+],
+"typical_verbs": [
+"Rewrite",
+"Differentiate",
+"Identify the error"
+]
+},
+{
+"id": "con_variable_scope",
+"name": "Variable Scope",
+"sequence": 3,
+"topic_id": "top_user_defined_functions",
+"aliases": [
+"Local scope",
+"Global scope",
+"global keyword",
+"LEGB rule"
+]
+}
+]
+}
+]
+},
+{
+"id": "ch_exception_handling",
+"name": "Exception Handling",
+"sequence": 3,
+"unit_id": "u1_comp_thinking_2",
+"topics": [
+{
+"id": "top_error_management",
+"name": "Error Management",
+"sequence": 1,
+"chapter_id": "ch_exception_handling",
+"concepts": [
+{
+"id": "con_try_except_blocks",
+"name": "try-except Blocks",
+"sequence": 1,
+"topic_id": "top_error_management",
+"aliases": [
+"try",
+"except",
+"finally",
+"raise",
+"ZeroDivisionError",
+"Exception"
+],
+"typical_verbs": [
+"Catch",
+"Handle",
+"Identify the output"
+]
+}
+]
+}
+]
+},
+{
+"id": "ch_data_file_handling",
+"name": "Data File Handling",
+"sequence": 4,
+"unit_id": "u1_comp_thinking_2",
+"topics": [
+{
+"id": "top_text_files",
+"name": "Text Files",
+"sequence": 1,
+"chapter_id": "ch_data_file_handling",
+"concepts": [
+{
+"id": "con_text_file_reading",
+"name": "Text File Reading",
+"sequence": 1,
+"topic_id": "top_text_files",
+"keywords": [
+"open()",
+"read()",
+"readline()",
+"readlines()",
+"file modes",
+"r",
+"r+"
+],
+"exam_patterns": [
+"Count vowels/words/lines",
+"Display lines starting with specific characters"
+]
+},
+{
+"id": "con_text_file_writing",
+"name": "Text File Writing",
+"sequence": 2,
+"topic_id": "top_text_files",
+"keywords": [
+"write()",
+"writelines()",
+"w",
+"a",
+"w+"
+]
+}
+]
+},
+{
+"id": "top_binary_files",
+"name": "Binary Files",
+"sequence": 2,
+"chapter_id": "ch_data_file_handling",
+"concepts": [
+{
+"id": "con_binary_serialization",
+"name": "Binary Serialization",
+"sequence": 1,
+"topic_id": "top_binary_files",
+"keywords": [
+"import pickle",
+"pickle.dump()",
+"pickle.load()",
+"rb",
+"wb",
+"ab",
+"EOFError"
+],
+"exam_patterns": [
+"Search for a record",
+"Update a record's value",
+"Append a new dictionary/list"
+]
+}
+]
+},
+{
+"id": "top_csv_files",
+"name": "CSV Files",
+"sequence": 3,
+"chapter_id": "ch_data_file_handling",
+"concepts": [
+{
+"id": "con_csv_operations",
+"name": "CSV Operations",
+"sequence": 1,
+"topic_id": "top_csv_files",
+"keywords": [
+"import csv",
+"csv.reader()",
+"csv.writer()",
+"writerow()",
+"newline=''"
+],
+"exam_patterns": [
+"Read and filter rows",
+"Write a header and nested list"
+]
+}
+]
+}
+]
+},
+{
+"id": "ch_data_structures",
+"name": "Data Structures (Advanced)",
+"sequence": 5,
+"unit_id": "u1_comp_thinking_2",
+"topics": [
+{
+"id": "top_stack",
+"name": "Stack",
+"sequence": 1,
+"chapter_id": "ch_data_structures",
+"concepts": [
+{
+"id": "con_stack_operations",
+"name": "Stack Operations (List Implementation)",
+"sequence": 1,
+"topic_id": "top_stack",
+"keywords": [
+"Push",
+"append()",
+"Pop",
+"pop()",
+"Peek",
+"Top",
+"Underflow",
+"Overflow"
+],
+"exam_patterns": [
+"Push elements matching a condition",
+"Pop and display until empty"
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"id": "u2_computer_networks",
+"name": "Computer Networks",
+"sequence": 2,
+"chapters": [
+{
+"id": "ch_networking_fundamentals",
+"name": "Networking Fundamentals",
+"sequence": 1,
+"unit_id": "u2_computer_networks",
+"topics": [
+{
+"id": "top_network_types",
+"name": "Network Types",
+"sequence": 1,
+"chapter_id": "ch_networking_fundamentals",
+"concepts": [
+{
+"id": "con_geographical_span",
+"name": "Geographical Span",
+"sequence": 1,
+"topic_id": "top_network_types",
+"keywords": [
+"PAN",
+"LAN",
+"MAN",
+"WAN"
+],
+"typical_verbs": [
+"Suggest",
+"Identify",
+"Differentiate"
+]
+}
+]
+},
+{
+"id": "top_topologies",
+"name": "Topologies",
+"sequence": 2,
+"chapter_id": "ch_networking_fundamentals",
+"concepts": [
+{
+"id": "con_physical_layouts",
+"name": "Physical Layouts",
+"sequence": 1,
+"topic_id": "top_topologies",
+"keywords": [
+"Star",
+"Bus",
+"Ring",
+"Tree",
+"Mesh"
+],
+"exam_patterns": [
+"Identify advantages/disadvantages",
+"draw layout for case study"
+]
+}
+]
+},
+{
+"id": "top_transmission_media",
+"name": "Transmission Media",
+"sequence": 3,
+"chapter_id": "ch_networking_fundamentals",
+"concepts": [
+{
+"id": "con_wired_guided",
+"name": "Wired (Guided)",
+"sequence": 1,
+"topic_id": "top_transmission_media",
+"keywords": [
+"Twisted pair",
+"Ethernet cable",
+"Coaxial cable",
+"Optical Fiber"
+]
+},
+{
+"id": "con_wireless_unguided",
+"name": "Wireless (Unguided)",
+"sequence": 2,
+"topic_id": "top_transmission_media",
+"keywords": [
+"Radio waves",
+"Microwaves",
+"Infrared",
+"Satellite",
+"Bluetooth"
+]
+}
+]
+}
+]
+},
+{
+"id": "ch_network_devices",
+"name": "Network Devices & Protocols",
+"sequence": 2,
+"unit_id": "u2_computer_networks",
+"topics": [
+{
+"id": "top_hardware_devices",
+"name": "Hardware Devices",
+"sequence": 1,
+"chapter_id": "ch_network_devices",
+"concepts": [
+{
+"id": "con_connectivity_devices",
+"name": "Connectivity Devices",
+"sequence": 1,
+"topic_id": "top_hardware_devices",
+"keywords": [
+"Modem",
+"RJ45",
+"Ethernet Card",
+"NIC",
+"Hub",
+"Switch",
+"Repeater",
+"Router",
+"Gateway"
+],
+"exam_patterns": [
+"When to use a Repeater",
+"When to use a Switch"
+]
+}
+]
+},
+{
+"id": "top_protocols_services",
+"name": "Protocols & Services",
+"sequence": 2,
+"chapter_id": "ch_network_devices",
+"concepts": [
+{
+"id": "con_communication_protocols",
+"name": "Communication Protocols",
+"sequence": 1,
+"topic_id": "top_protocols_services",
+"keywords": [
+"HTTP",
+"FTP",
+"SMTP",
+"POP3",
+"TCP/IP",
+"PPP",
+"VoIP"
+]
+},
+{
+"id": "con_web_services",
+"name": "Web Services",
+"sequence": 2,
+"topic_id": "top_protocols_services",
+"keywords": [
+"Web browser",
+"Web server",
+"HTML",
+"XML",
+"URL",
+"Domain Name"
+]
+}
+]
+}
+]
+},
+{
+"id": "ch_network_design",
+"name": "Network Design Case Study",
+"sequence": 3,
+"unit_id": "u2_computer_networks",
+"topics": [
+{
+"id": "top_layout_implementation",
+"name": "Layout & Implementation",
+"sequence": 1,
+"chapter_id": "ch_network_design",
+"concepts": [
+{
+"id": "con_server_placement",
+"name": "Server Placement",
+"sequence": 1,
+"topic_id": "top_layout_implementation",
+"keywords": [
+"80-20 Rule",
+"Maximum Computers"
+]
+},
+{
+"id": "con_cable_layout_drawing",
+"name": "Cable Layout Drawing",
+"sequence": 2,
+"topic_id": "top_layout_implementation",
+"keywords": [
+"Shortest Distance",
+"Star Topology"
+]
+},
+{
+"id": "con_device_suggestion",
+"name": "Device Suggestion",
+"sequence": 3,
+"topic_id": "top_layout_implementation",
+"keywords": [
+"Repeater",
+"Switch",
+"Hub"
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"id": "u3_database_management",
+"name": "Database Management",
+"sequence": 3,
+"chapters": [
+{
+"id": "ch_database_concepts",
+"name": "Database Concepts",
+"sequence": 1,
+"unit_id": "u3_database_management",
+"topics": [
+{
+"id": "top_relational_model",
+"name": "Relational Model",
+"sequence": 1,
+"chapter_id": "ch_database_concepts",
+"concepts": [
+{
+"id": "con_table_anatomy",
+"name": "Table Anatomy",
+"sequence": 1,
+"topic_id": "top_relational_model",
+"keywords": [
+"Relation",
+"Tuple",
+"Attribute",
+"Degree",
+"Cardinality",
+"Domain"
+],
+"exam_patterns": [
+"Calculate degree and cardinality after rows/columns are deleted/added"
+]
+}
+]
+},
+{
+"id": "top_keys",
+"name": "Keys",
+"sequence": 2,
+"chapter_id": "ch_database_concepts",
+"concepts": [
+{
+"id": "con_constraints",
+"name": "Constraints",
+"sequence": 1,
+"topic_id": "top_keys",
+"keywords": [
+"Primary Key",
+"Candidate Key",
+"Alternate Key",
+"Foreign Key",
+"UNIQUE",
+"NOT NULL"
+]
+}
+]
+}
+]
+},
+{
+"id": "ch_sql",
+"name": "Structured Query Language (SQL)",
+"sequence": 2,
+"unit_id": "u3_database_management",
+"topics": [
+{
+"id": "top_ddl",
+"name": "Data Definition Language (DDL)",
+"sequence": 1,
+"chapter_id": "ch_sql",
+"concepts": [
+{
+"id": "con_schema_modification",
+"name": "Schema Modification",
+"sequence": 1,
+"topic_id": "top_ddl",
+"keywords": [
+"CREATE TABLE",
+"DROP TABLE",
+"ALTER TABLE",
+"ADD",
+"DROP",
+"MODIFY"
+]
+}
+]
+},
+{
+"id": "top_dml",
+"name": "Data Manipulation Language (DML)",
+"sequence": 2,
+"chapter_id": "ch_sql",
+"concepts": [
+{
+"id": "con_data_modification",
+"name": "Data Modification",
+"sequence": 1,
+"topic_id": "top_dml",
+"keywords": [
+"INSERT INTO",
+"UPDATE...SET",
+"DELETE FROM"
+]
+}
+]
+},
+{
+"id": "top_dql",
+"name": "Data Query Language (DQL)",
+"sequence": 3,
+"chapter_id": "ch_sql",
+"concepts": [
+{
+"id": "con_basic_selection",
+"name": "Basic Selection",
+"sequence": 1,
+"topic_id": "top_dql",
+"keywords": [
+"SELECT",
+"DISTINCT",
+"WHERE",
+"LIKE",
+"BETWEEN",
+"IN",
+"IS NULL"
+]
+},
+{
+"id": "con_sorting_grouping",
+"name": "Sorting and Grouping",
+"sequence": 2,
+"topic_id": "top_dql",
+"keywords": [
+"ORDER BY",
+"ASC",
+"DESC",
+"GROUP BY",
+"HAVING"
+]
+}
+]
+},
+{
+"id": "top_sql_functions",
+"name": "SQL Functions",
+"sequence": 4,
+"chapter_id": "ch_sql",
+"concepts": [
+{
+"id": "con_aggregate_functions",
+"name": "Aggregate Functions",
+"sequence": 1,
+"topic_id": "top_sql_functions",
+"keywords": [
+"MAX()",
+"MIN()",
+"AVG()",
+"SUM()",
+"COUNT()",
+"COUNT(*)"
+]
+},
+{
+"id": "con_single_row_functions",
+"name": "Single Row Functions",
+"sequence": 2,
+"topic_id": "top_sql_functions",
+"keywords": [
+"POWER",
+"ROUND",
+"MOD",
+"UCASE",
+"LCASE",
+"MID",
+"LENGTH",
+"INSTR",
+"LEFT",
+"RIGHT",
+"NOW",
+"DATE",
+"MONTH",
+"YEAR",
+"DAYNAME"
+]
+}
+]
+},
+{
+"id": "top_joins",
+"name": "Joins",
+"sequence": 5,
+"chapter_id": "ch_sql",
+"concepts": [
+{
+"id": "con_multi_table_queries",
+"name": "Multi-table Queries",
+"sequence": 1,
+"topic_id": "top_joins",
+"keywords": [
+"Equi-join",
+"Natural Join",
+"Cartesian Product",
+"Cross Join"
+],
+"exam_patterns": [
+"Identify output of a join query",
+"Write query using two tables based on a Foreign Key"
+]
+}
+]
+}
+]
+},
+{
+"id": "ch_python_mysql",
+"name": "Interface Python with MySQL",
+"sequence": 3,
+"unit_id": "u3_database_management",
+"topics": [
+{
+"id": "top_database_connectivity",
+"name": "Database Connectivity",
+"sequence": 1,
+"chapter_id": "ch_python_mysql",
+"concepts": [
+{
+"id": "con_python_mysql_integration",
+"name": "Python-MySQL Integration",
+"sequence": 1,
+"topic_id": "top_database_connectivity",
+"keywords": [
+"import mysql.connector",
+"connect()",
+"cursor()",
+"execute()",
+"commit()",
+"fetchone()",
+"fetchall()",
+"rowcount"
+]
+}
+]
+}
+]
+}
+]
+}
+],
+"question_types": [
+{
+"id": "qt_mcq",
+"name": "Multiple Choice Question",
+"description": "Exactly 4 options provided. Tests objective recall/application."
+},
+{
+"id": "qt_assert_reason",
+"name": "Assertion-Reason",
+"description": "Contains exactly one Assertion statement and one Reason statement with standard A, B, C, D options."
+},
+{
+"id": "qt_theory_definition",
+"name": "Theory / Definition",
+"description": "Requires a written explanation, expansion of acronyms, or stating advantages/disadvantages."
+},
+{
+"id": "qt_difference_between",
+"name": "Difference Between",
+"description": "Explicitly asks to contrast two or more concepts, e.g., Drop vs. Delete."
+},
+{
+"id": "qt_output_prediction",
+"name": "Output Prediction (Python)",
+"description": "Given a block of Python code, write the exact console output."
+},
+{
+"id": "qt_output_sql",
+"name": "Output Prediction (SQL)",
+"description": "Given database tables and SQL queries, draw the resulting table or data."
+},
+{
+"id": "qt_debugging",
+"name": "Debugging / Error Correction",
+"description": "Given a block of buggy Python code, identify syntax/logical errors, rewrite, and underline corrections."
+},
+{
+"id": "qt_code_completion",
+"name": "Code Completion",
+"description": "Given a partially written Python/SQL script with blanks/statements marked, fill in the missing syntax."
+},
+{
+"id": "qt_programming_short",
+"name": "Programming (Short)",
+"description": "Write a 1-3 line Python expression or function call."
+},
+{
+"id": "qt_programming_long",
+"name": "Programming (Long)",
+"description": "Write a complete User-Defined Function for File Handling or Stack operations."
+},
+{
+"id": "qt_sql_query",
+"name": "SQL Query Writing",
+"description": "Given a table schema, write the exact SQL commands to fetch or modify data."
+},
+{
+"id": "qt_networking_case_study",
+"name": "Networking Case Study",
+"description": "The standard 4-5 mark question featuring a diagram of blocks/buildings, distance tables, and computer counts."
+}
+]
+}
