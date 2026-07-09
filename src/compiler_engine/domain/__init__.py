@@ -1,7 +1,18 @@
 from compiler_engine.domain.answer_ir import AnswerIR, AnswerOption
+# DEPRECATED, UNUSED — see compiler_engine.domain.canonical_knowledge_object module
+# docstring. Superseded by CKO below (deliberately different name, not a replacement
+# in-place).
 from compiler_engine.domain.canonical_knowledge_object import (
     CanonicalKnowledgeObject,
     Provenance,
+)
+from compiler_engine.domain.cko import (
+    CKO,
+    CkoEvolution,
+    CkoLineage,
+    CkoOccurrence,
+    CkoRelationships,
+    CkoStatus,
 )
 # DEPRECATED, UNUSED — see compiler_engine.domain.document_ast module docstring.
 from compiler_engine.domain.document_ast import ASTNode, ASTNodeType, BoundingBox, DocumentAST
@@ -31,7 +42,13 @@ __all__ = [
     "AnswerOption",
     "BloomLevel",
     "BoundingBox",
+    "CKO",
     "CanonicalKnowledgeObject",
+    "CkoEvolution",
+    "CkoLineage",
+    "CkoOccurrence",
+    "CkoRelationships",
+    "CkoStatus",
     "DifficultyLevel",
     "DocumentAST",
     "EducationalAnalysis",

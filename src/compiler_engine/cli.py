@@ -1,16 +1,19 @@
 """Compiler CLI entry point.
 
 Loads configuration, initializes and validates the workspace, builds a CompilerContext,
-runs the pipeline, and prints an execution summary. As of Sprint 5, the pipeline runs
+runs the pipeline, and prints an execution summary. As of Sprint 7, the pipeline runs
 PaperImportStage, RelationshipResolutionStage, and (only if ``--taxonomy`` is also
-given) EducationalAnalysisStage, when ``--paper`` is given; later sprints will register
-further stages (CKO Generation, ...) the same way, before ``runner.run(...)``.
+given) EducationalAnalysisStage, CkoGenerationStage, and PublishingStage, when
+``--paper`` is given; later sprints will register further stages the same way, before
+``runner.run(...)``.
 
-``--taxonomy`` points at a JSON file this CLI invented the shape of (no such loading
-convention existed before Sprint 5, since nothing previously needed reference data
-rather than paper.json itself): a dict of named Taxonomy objects, keyed by taxonomy_id,
-e.g. ``{"curriculum": {...}, "question_types": {...}}``. It is never a substitute for
-the real "QuestionVault Taxonomy v1.0" content, which this codebase does not invent.
+``--taxonomy`` points at the real, frozen ``reference/taxonomy.json`` (or any file in
+that same shape: a ``metadata``/``curriculum``/``question_types`` document, with
+``id``/``unit_id``/``chapter_id``/``topic_id`` fields at each curriculum level) and is
+converted into the two Taxonomy artifacts EducationalAnalysisStage requires. Sprint 5
+originally guessed at a different, simpler shape here before any real taxonomy existed;
+this loader was rewritten in Sprint 6 to match the real file once it existed, not the
+other way around.
 """
 
 from __future__ import annotations
@@ -21,15 +24,21 @@ import sys
 from collections.abc import Sequence
 from pathlib import Path
 
+from compiler_engine.canonical_knowledge_object_generation.stage import CkoGenerationStage
 from compiler_engine.core.config import CompilerConfig
 from compiler_engine.core.errors import CompilerError, SchemaError
 from compiler_engine.core.logging import configure_logging, get_logger
-from compiler_engine.domain.taxonomy import Taxonomy
+from compiler_engine.domain.taxonomy import Taxonomy, TaxonomyNode
+from compiler_engine.educational_analysis.reference import (
+    CURRICULUM_TAXONOMY_ID,
+    QUESTION_TYPES_TAXONOMY_ID,
+)
 from compiler_engine.educational_analysis.stage import EducationalAnalysisStage
 from compiler_engine.paper_import.stage import PaperImportStage
 from compiler_engine.pipeline.context import CompilerContext
 from compiler_engine.pipeline.runner import ExecutionSummary, PipelineRunner
 from compiler_engine.pipeline.workspace import WorkspaceManager
+from compiler_engine.publishing.stage import PublishingStage
 from compiler_engine.relationship_resolution.stage import RelationshipResolutionStage
 
 
@@ -79,7 +88,7 @@ def _build_config(args: argparse.Namespace) -> CompilerConfig:
     )
 
 
-def _load_taxonomies(path: Path) -> dict[str, Taxonomy]:
+def _load_taxonomies(path: Path) -> tuple[dict[str, Taxonomy], str | None]:
     try:
         raw = path.read_text(encoding="utf-8")
     except OSError as exc:
@@ -96,11 +105,77 @@ def _load_taxonomies(path: Path) -> dict[str, Taxonomy]:
         ) from exc
 
     try:
-        return {name: Taxonomy.from_json(json.dumps(value)) for name, value in payload.items()}
+        curriculum = payload["curriculum"]
+        question_types = payload["question_types"]
+    except KeyError as exc:
+        raise CompilerError(
+            f"Taxonomy file is missing a required top-level key: {exc}",
+            details={"path": str(path)},
+        ) from exc
+
+    # Content version of the taxonomy document itself (e.g. "1.0"), distinct from
+    # Taxonomy.schema_version (the wrapper model's own, unrelated versioning). Optional:
+    # not every taxonomy file need carry this, so its absence degrades gracefully rather
+    # than failing the load.
+    taxonomy_version = payload.get("metadata", {}).get("taxonomy_version")
+
+    try:
+        curriculum_roots = tuple(_unit_node(unit) for unit in curriculum)
+        question_type_roots = tuple(
+            TaxonomyNode(node_id=qt["id"], name=qt["name"], level=0) for qt in question_types
+        )
+    except (KeyError, TypeError) as exc:
+        raise CompilerError(
+            f"Taxonomy file has an unexpected shape: {exc}", details={"path": str(path)}
+        ) from exc
+
+    try:
+        taxonomies = {
+            CURRICULUM_TAXONOMY_ID: Taxonomy(
+                taxonomy_id=CURRICULUM_TAXONOMY_ID, name="curriculum", roots=curriculum_roots
+            ),
+            QUESTION_TYPES_TAXONOMY_ID: Taxonomy(
+                taxonomy_id=QUESTION_TYPES_TAXONOMY_ID,
+                name="question_types",
+                roots=question_type_roots,
+            ),
+        }
     except SchemaError as exc:
         raise CompilerError(
             f"Taxonomy file is invalid: {path}", details={"path": str(path), **exc.details}
         ) from exc
+
+    return taxonomies, taxonomy_version
+
+
+def _unit_node(unit: dict) -> TaxonomyNode:
+    return TaxonomyNode(
+        node_id=unit["id"],
+        name=unit["name"],
+        level=0,
+        children=tuple(_chapter_node(chapter) for chapter in unit.get("chapters", [])),
+    )
+
+
+def _chapter_node(chapter: dict) -> TaxonomyNode:
+    return TaxonomyNode(
+        node_id=chapter["id"],
+        name=chapter["name"],
+        level=1,
+        children=tuple(_topic_node(topic) for topic in chapter.get("topics", [])),
+    )
+
+
+def _topic_node(topic: dict) -> TaxonomyNode:
+    return TaxonomyNode(
+        node_id=topic["id"],
+        name=topic["name"],
+        level=2,
+        children=tuple(
+            TaxonomyNode(node_id=concept["id"], name=concept["name"], level=3)
+            for concept in topic.get("concepts", [])
+        ),
+    )
 
 
 def _print_summary(summary: ExecutionSummary) -> None:
@@ -135,15 +210,18 @@ def main(argv: Sequence[str] | None = None) -> int:
             context = context.for_document(args.paper)
 
         if args.taxonomy:
-            for name, taxonomy in _load_taxonomies(args.taxonomy).items():
+            taxonomies, taxonomy_version = _load_taxonomies(args.taxonomy)
+            for name, taxonomy in taxonomies.items():
                 context.registry.register(taxonomy, artifact_id=name)
+            context.state["taxonomy_version"] = taxonomy_version
 
         runner = PipelineRunner()
         if args.paper:
             runner.register(PaperImportStage()).register(RelationshipResolutionStage())
             if args.taxonomy:
-                runner.register(EducationalAnalysisStage())
-        # Future sprints: runner.register(CkoGenerationStage()) etc., here too.
+                runner.register(EducationalAnalysisStage()).register(CkoGenerationStage())
+                runner.register(PublishingStage())
+        # Future sprints: register further stages here too.
         summary = runner.run(context)
     except CompilerError as exc:
         print(f"error: {exc}", file=sys.stderr)

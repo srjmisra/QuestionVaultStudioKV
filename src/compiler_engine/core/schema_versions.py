@@ -15,4 +15,5 @@ CURRENT_SCHEMA_VERSIONS: dict[str, str] = {
     "validation_report": "1.0.0",
     "taxonomy": "1.0.0",
     "relationship_graph": "1.0.0",
+    "cko": "1.0.0",
 }

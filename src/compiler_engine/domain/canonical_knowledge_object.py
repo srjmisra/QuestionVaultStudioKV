@@ -1,6 +1,14 @@
-"""Canonical Knowledge Object: the final, published-ready artifact that aggregates a
-question's IR, its educational analysis, and provenance. This is the artifact the JSON
-handoff to the KV Coders Admin Module is built from.
+"""Canonical Knowledge Object (original Sprint 1 design), wrapping QuestionIR with a
+single Provenance record.
+
+DEPRECATED, UNUSED: Sprint 6 specified a real CKO with a fundamentally different shape
+(a growable occurrence lineage rather than one Provenance, resolved CKO-to-CKO
+relationships, version/checksum/status identity fields, and evolution/usage tracking) —
+this model, designed before any of that was known, can't represent it without dropping
+data. The real, actively-used artifact is `compiler_engine.domain.cko.CKO`, a
+deliberately different name so it doesn't collide with this one. Kept, not deleted, for
+the same reason as `document_ast.DocumentAST`: nothing currently produces or consumes
+this, but deleting still-referenced-by-name history isn't this stage's call to make.
 """
 
 from __future__ import annotations
